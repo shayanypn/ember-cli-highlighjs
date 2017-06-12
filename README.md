@@ -1,6 +1,8 @@
 # ember-cli-highlightjs
 Ember-cli Syntax highlighting addon for the Web using HighlightJs
 
+[Demo](ember-cli-highlighjs.shayanypn.ir/)
+
 ## Installation
 `ember install ember-cli-highlightjs`
 
@@ -24,8 +26,8 @@ default
  Specify Theme
 
     {{highlight-code
-    	theme='agate'
-    	code='POST /task?id=1 HTTP/1.1
+      theme='agate'
+      code='POST /task?id=1 HTTP/1.1
     Host: example.org
     Content-Type: application/json; charset=utf-8
     Content-Length: 137
@@ -42,9 +44,9 @@ default
 Specify Code Type
 
     {{#highlight-code
-    	theme='atom-one-light'
-    	type='javascript'
-    	}}
+      theme='atom-one-light'
+      type='javascript'
+      }}
     function $initHighlight(block, cls) {
       try {
         if (cls.search(/\bno\-highlight\b/) != -1)
@@ -85,4 +87,5 @@ If you find an issue or missing functionality, please don't hesistate to open a 
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
 
