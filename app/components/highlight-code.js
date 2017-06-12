@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-highlightjs/components/highlight-code';

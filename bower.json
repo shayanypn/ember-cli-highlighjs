@@ -1,0 +1,6 @@
+{
+  "name": "ember-cli-highlightjs",
+  "dependencies": {
+    "highlightjs": "^9.11.0"
+  }
+}
