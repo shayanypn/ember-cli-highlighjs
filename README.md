@@ -1,7 +1,7 @@
 # ember-cli-highlightjs
 Ember-cli Syntax highlighting addon for the Web using HighlightJs
 
-[Demo](ember-cli-highlighjs.shayanypn.ir/)
+[Demo](http://ember-cli-highlighjs.shayanypn.ir/)
 
 ## Installation
 `ember install ember-cli-highlightjs`
