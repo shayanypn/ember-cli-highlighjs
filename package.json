@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-highlightjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ember-cli Syntax highlighting addon for the Web using HighlightJs",
   "keywords": [
     "ember-addon",
