@@ -2,7 +2,7 @@
 # ember-cli-highlightjs
 Ember-cli Syntax highlighting addon for the Web using HighlightJs
 
-![screen record of preview](https://github.com/shayanypn/ember-cli-highlighjs/blob/master/preview.gif)
+![screen record of preview](https://github.com/shayanypn/ember-cli-highlighjs/blob/master/preview.png)
 
 [Demo](http://ember-cli-highlighjs.shayanypn.ir/)
 
