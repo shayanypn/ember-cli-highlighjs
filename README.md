@@ -1,16 +1,23 @@
+
 # ember-cli-highlightjs
 Ember-cli Syntax highlighting addon for the Web using HighlightJs
+
+![screen record of preview](https://github.com/shayanypn/ember-cli-highlighjs/blob/master/preview.gif)
 
 [Demo](http://ember-cli-highlighjs.shayanypn.ir/)
 
 ## Installation
+Ember:
 `ember install ember-cli-highlightjs`
+
+NPM:
+`npm install ember-cli-highlightjs`
 
 
 
 ## Usage
 
-default
+**Default:**
 
     {{#highlight-code}}
     @font-face {
@@ -23,7 +30,7 @@ default
     @import url(print.css);
     {{/highlight-code}}
  
- Specify Theme
+ **Specify Theme:**
 
     {{highlight-code
       theme='agate'
@@ -41,7 +48,7 @@ default
       ]
     }'}}
 
-Specify Code Type
+**Specify Code Type:**
 
     {{#highlight-code
       theme='atom-one-light'
@@ -63,6 +70,19 @@ Specify Code Type
     export  $initHighlight;
     {{/highlight-code}}
 
+**With Ember V3:**
+
+    <HighlightCode>
+    @font-face {
+      font-family: Chunkfive; src: url('Chunkfive.otf');
+    }
+    body, .usertext {
+      color: #F0F0F0; background: #600;
+      font-family: Chunkfive, sans;
+    }
+    @import url(print.css);
+    <HighlightCode>
+ 
 for checking all themes and code type please look at [HighlighJs](https://highlightjs.org)
 
 
@@ -72,7 +92,7 @@ for checking all themes and code type please look at [HighlighJs](https://highli
 If you find an issue or missing functionality, please don't hesistate to open a pull request.
 
 ### Installation
-* `git clone` this repository
+* `git clone https://github.com/shayanypn/ember-cli-highlighjs.git` 
 * `npm install`
 * `bower install`
 
