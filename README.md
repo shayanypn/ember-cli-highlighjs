@@ -1,4 +1,5 @@
 
+  
 # ember-cli-highlightjs
 Ember-cli Syntax highlighting addon for the Web using HighlightJs
 
@@ -19,6 +20,7 @@ NPM:
 
 **Default:**
 
+```handlebars
     {{#highlight-code}}
     @font-face {
       font-family: Chunkfive; src: url('Chunkfive.otf');
@@ -29,9 +31,11 @@ NPM:
     }
     @import url(print.css);
     {{/highlight-code}}
+```
+
  
  **Specify Theme:**
-
+```handlebars
     {{highlight-code
       theme='agate'
       code='POST /task?id=1 HTTP/1.1
@@ -47,9 +51,10 @@ NPM:
         {"value": 1.0e+3, "type": "decimal"}
       ]
     }'}}
-
+```
 **Specify Code Type:**
 
+```handlebars
     {{#highlight-code
       theme='atom-one-light'
       type='javascript'
@@ -69,9 +74,11 @@ NPM:
     }
     export  $initHighlight;
     {{/highlight-code}}
+```
 
 **With Ember V3:**
 
+```handlebars
     <HighlightCode>
     @font-face {
       font-family: Chunkfive; src: url('Chunkfive.otf');
@@ -82,7 +89,7 @@ NPM:
     }
     @import url(print.css);
     <HighlightCode>
- 
+ ```
 for checking all themes and code type please look at [HighlighJs](https://highlightjs.org)
 
 
@@ -107,5 +114,3 @@ If you find an issue or missing functionality, please don't hesistate to open a 
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
-
-
