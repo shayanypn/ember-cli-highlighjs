@@ -20,7 +20,7 @@ NPM:
 
 **Default:**
 
-```handlebars
+```hbs
     {{#highlight-code}}
     @font-face {
       font-family: Chunkfive; src: url('Chunkfive.otf');
@@ -35,7 +35,7 @@ NPM:
 
  
  **Specify Theme:**
-```handlebars
+```hbs
     {{highlight-code
       theme='agate'
       code='POST /task?id=1 HTTP/1.1
@@ -54,7 +54,7 @@ NPM:
 ```
 **Specify Code Type:**
 
-```handlebars
+```hbs
     {{#highlight-code
       theme='atom-one-light'
       type='javascript'
@@ -78,7 +78,7 @@ NPM:
 
 **With Ember V3:**
 
-```handlebars
+```hbs
     <HighlightCode>
     @font-face {
       font-family: Chunkfive; src: url('Chunkfive.otf');
